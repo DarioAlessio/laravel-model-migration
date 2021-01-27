@@ -18,7 +18,7 @@ class CreateEmployeesTable extends Migration
             $table->string('name');
             $table->string('lastname');
             $table->datetime('date_of_birth');
-            $table->bigInteger('ral');
+            $table->integer('ral');
             $table->timestamps();
         });
     }
